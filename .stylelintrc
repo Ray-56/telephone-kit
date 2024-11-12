@@ -1,0 +1,12 @@
+{
+  "extends": "@umijs/lint/dist/config/stylelint",
+  "rules": {
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["tailwind", "apply"]
+      }
+    ],
+    "selector-class-pattern": null
+  }
+}
